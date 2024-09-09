@@ -4,7 +4,7 @@
 # See the LICENSE file in the root of this repository for more details.
 
 CXX := g++
-CXXFLAGS := -Wall -Wextra -std=c++17
+CXXFLAGS := -Wall -Wextra -std=c++17 -pthread
 CXXFLAGS_DEBUG := -g
 CXXFLAGS_PERF := -Ofast -DNDEBUG -Wno-unused-parameter -Wno-unused-private-field -Wno-unused-variable
 INC :=

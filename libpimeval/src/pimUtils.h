@@ -12,6 +12,7 @@
 #include <queue>
 #include <vector>
 #include <thread>
+#include <pthread.h>
 #include <atomic>
 #include <mutex>
 #include <condition_variable>

@@ -14,6 +14,8 @@
 #include <string>
 #include <map>
 #include <memory>
+#include <pthread.h>
+
 
 //! @class  bitSerialBase
 //! @brief  Bit-serial perf base class
